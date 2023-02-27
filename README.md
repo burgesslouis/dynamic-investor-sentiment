@@ -39,3 +39,10 @@ A check on the main index, with the knowledge that only certain sentiment indica
 
 ### The BW index, unorthogonalised 2018 edition, from Baker and Wurgler (2006).
 We include the original BW index (the version fit from 1965-2018) to compare to our two indices. Throughout our paper, this index serves as a benchmamrk to which we compare the incremental impact of our methodological alterations.
+
+## Visual comparison of the data
+![DE-BW, DE-BW-PR, and BW indices](sentiment_index_comparison.png)
+
+The above is a plot of the DE-BW index, alongside a ‘practical’ (DE-BW-PR) version, which uses only indicators which have been
+identified in the literature by that time. The two versions are both scaled using the standard deviation of the
+original DE-BW index, for simple comparison. Additionally, the BW index is included.
