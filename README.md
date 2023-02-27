@@ -16,6 +16,9 @@ while observing increasing sentiment-induced mispricing on the long or easier-to
 legs post-2000.
 
 ## Included data
+
+Data for the following indices can be found in the repositary [here](sentiment_index_data.csv).
+
 ### Dynamic and extended Baker-Wurgler (DE-BW) index
 The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s index methodology with the following changes:
 - We extend the pool of sentiment indicators by adding:
