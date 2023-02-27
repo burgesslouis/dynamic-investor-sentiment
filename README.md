@@ -36,3 +36,6 @@ A check on the main index, with the knowledge that only certain sentiment indica
 - Volatility index (VIX) and Equity share in new issues (ESNI): 2000
 - Dividend premium (DIVP): 2004
 - Trading volume (VOL): 2004
+
+### The BW index, unorthogonalised 2018 edition, from Baker and Wurgler (2006).
+We include the original BW index (the version fit from 1965-2018) to compare to our two indices. Throughout our paper, this index serves as a benchmamrk to which we compare the incremental impact of our methodological alterations.
