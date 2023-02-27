@@ -14,3 +14,16 @@ tical applications. We test our index against fourteen anomaly portfolio returns
 confirm the classic sentiment-induced mispricing effect on short or hard-to-value legs,
 while observing increasing sentiment-induced mispricing on the long or easier-to-value
 legs post-2000.
+
+## Included data
+### DE-BW Index
+The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s index methodology with the following changes:
+- Added to the pool of sentiment indicators used to fit the PCA are
+  - VIX: CBOE market volatility index.
+  - VOL: S\&P500 Trading volume.
+  - NHNL: New highs to new lows. 
+  - DEBT: Change in margin borrowing.
+  - AD: Advances to declines ratio. 
+  - TRIN: Trading (Arms) index.
+- Instead of using each variable and its twelve-month lag, the variable and its one-month lag is used for the PCA.
+- The PCA is conducted in a ten-year rolling-window.
