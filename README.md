@@ -16,9 +16,9 @@ while observing increasing sentiment-induced mispricing on the long or easier-to
 legs post-2000.
 
 ## Included data
-### DE-BW Index
+### Dynamic and extended Baker-Wurgler (DE-BW) index
 The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s index methodology with the following changes:
-- Added to the pool of sentiment indicators used to fit the PCA are
+- We extend the pool of sentiment indicators by adding:
   - VIX: CBOE market volatility index.
   - VOL: S\&P500 Trading volume.
   - NHNL: New highs to new lows. 
@@ -26,4 +26,7 @@ The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s
   - AD: Advances to declines ratio. 
   - TRIN: Trading (Arms) index.
 - Instead of using each variable and its twelve-month lag, the variable and its one-month lag is used for the PCA.
-- The PCA is conducted in a ten-year rolling-window.
+- The PCA is conducted in a ten-year rolling-window, the data in each window is standardised before any decomposition is performed.
+
+### Look-ahead free (DE-BW') index
+A check on the main index, with the knowledge that only certain sentiment indicators are known to researchers and practitioners alike at any one time. So, we create the index following the DE-BW index methodology, but only including each sentiment indicator from when they have been mentioned in publications as representing sentiment.
