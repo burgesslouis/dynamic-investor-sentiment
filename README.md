@@ -1,6 +1,8 @@
 # dynamic-investor-sentiment
 Indices from Burgess, Chen, and Zhang (2023), "A dynamic model of investor sentiment".
 
+
+## Abstract 
 We propose a dynamic measure of market sentiment, extending Baker and Wurgler
 (2006)’s index on the basis that aggregate sentiment must cover a wide range of investors
 or investment activities; such aggregation must adapt to changes in how different sen-
