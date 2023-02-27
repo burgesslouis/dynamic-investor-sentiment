@@ -28,5 +28,11 @@ The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s
 - Instead of using each variable and its twelve-month lag, the variable and its one-month lag is used for the PCA.
 - The PCA is conducted in a ten-year rolling-window, the data in each window is standardised before any decomposition is performed.
 
-### Look-ahead free (DE-BW') index
-A check on the main index, with the knowledge that only certain sentiment indicators are known to researchers and practitioners alike at any one time. So, we create the index following the DE-BW index methodology, but only including each sentiment indicator from when they have been mentioned in publications as representing sentiment.
+### Look-ahead free, or practical (DE-BW-PR) index
+A check on the main index, with the knowledge that only certain sentiment indicators are known to researchers and practitioners alike at any one time. So, we create the index which could have practically been constructed following the DE-BW index methodology, but only including each sentiment indicator from when they have been mentioned in publications as representing sentiment.
+- Number of IPOs (NIPO) and Return on IPOs (RIPO): 1991
+- Closed-end fund discount (CEFD): 1991
+- Advance to declines (AD), New highs to new lows (NHNL), and Trading index (TRIN): 1999
+- Volatility index (VIX) and Equity share in new issues (ESNI): 2000
+- Dividend premium (DIVP): 2004
+- Trading volume (VOL): 2004
