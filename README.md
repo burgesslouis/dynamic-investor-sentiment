@@ -17,7 +17,7 @@ legs post-2000.
 
 ## Included data
 
-Data for the following indices can be found in the repositary [here](sentiment_index_data.csv).
+Data for the following indices can be found in the repository [here](sentiment_index_data.csv).
 
 ### Dynamic and extended Baker-Wurgler (DE-BW) index
 The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s index methodology with the following changes:
@@ -41,7 +41,7 @@ A check on the main index, with the knowledge that only certain sentiment indica
 - Trading volume (VOL): 2004
 
 ### The BW index, unorthogonalised 2018 edition, from Baker and Wurgler (2006).
-We include the original BW index (the version fit from 1965-2018) to compare to our two indices. Throughout our paper, this index serves as a benchmamrk to which we compare the incremental impact of our methodological alterations.
+We include the original BW index (the version fit from 1965-2018) to compare to our two indices. Throughout our paper, this index serves as a benchmark to which we compare the incremental impact of our methodological alterations.
 
 ## Visual comparison of the data
 ![DE-BW, DE-BW-PR, and BW indices](sentiment_index_comparison.png)
