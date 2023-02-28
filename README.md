@@ -23,7 +23,7 @@ Data for the following indices can be found in the repository [here](sentiment_i
 The main index used in the paper analysis, it follows Baker and Wurgler (2006)'s index methodology with the following changes:
 - We extend the pool of sentiment indicators by adding:
   - VIX: CBOE market volatility index.
-  - VOL: S\&P500 Trading volume.
+  - VOL: S\&P 500 Trading volume.
   - NHNL: New highs to new lows. 
   - DEBT: Change in margin borrowing.
   - AD: Advances to declines ratio. 
