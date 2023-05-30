@@ -1,5 +1,5 @@
 # dynamic-investor-sentiment
-Indices from Burgess, Chen, and Zhang (2023), "A dynamic model of investor sentiment".
+Indices from Burgess, Chen, and Zhang (2023), "Model risk in static aggregation of stock market sentiment".
 
 
 ## Abstract 
