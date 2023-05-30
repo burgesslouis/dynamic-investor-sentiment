@@ -43,6 +43,11 @@ A check on the main index, with the knowledge that only certain sentiment indica
 ### The BW index, unorthogonalised 2018 edition, from Baker and Wurgler (2006).
 We include the original BW index (the version fit from 1965-2018) to compare to our two indices. Throughout our paper, this index serves as a benchmark to which we compare the incremental impact of our methodological alterations.
 
+### The BW index, orthogonalised 2018 edition, from Baker and Wurgler (2006).
+We include the orthogonalised BW index (the version fit from 1965-2018) to compare to our two indices. This index has been orthgonalised to the five macro variables by orthgonalising each proxy which forms the BW index using a linear regression of the form
+$$P_t = \alpha + \beta X_t + \varepsilon_t,$$
+where $P_t$ is the respective proxy, and $X_t$ is a vector of business cycle variables including growth in industrial production; growth in consumer durables, non-durables, and services; growth in the consumer price index; and NBER recessions. Each orthgonalised proxy is extracted as the residual, $\varepsilon_t$.
+
 ## Visual comparison of the data
 ![DE-BW, DE-BW-PR, and BW indices](sentiment_index_comparison.png)
 
