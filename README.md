@@ -48,4 +48,4 @@ We include the original BW index (the version fit from 1965-2018) to compare to 
 
 The above is a plot of the DE-BW index, alongside a ‘practical’ (DE-BW-PR) version, which uses only indicators which have been
 identified in the literature by that time. The two versions are both scaled using the standard deviation of the
-original DE-BW index, for simple comparison. Additionally, the BW index is included.
+original DE-BW index, for simple comparison. Additionally, the BW and orthogonalised BW (O-BW) indices are included.
